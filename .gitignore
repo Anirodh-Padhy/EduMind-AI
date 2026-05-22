@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+
+# Database
+*.db
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# FAISS
+*.faiss
+
+# Uploaded Files
+uploads/
+
+# OS Files
+.DS_Store
+Thumbs.db

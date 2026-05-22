@@ -1,0 +1,264 @@
+# 🚀 EduMind AI — Enterprise AI Education SaaS Platform
+
+EduMind AI is an enterprise-grade AI-powered education platform that combines:
+
+- Conversational AI
+- RAG (Retrieval-Augmented Generation)
+- Voice Learning
+- Personalized Study Planning
+- AI Quiz Generation
+- LMS Architecture
+- Learning Analytics
+- Enterprise Authentication
+
+Built using:
+- Python
+- Streamlit
+- Ollama
+- Phi3
+- FAISS
+- NLP
+- Plotly
+
+---
+
+# 🎯 Features
+
+# 🤖 AI Tutor Chatbot
+- Conversational AI tutor
+- Personalized learning assistance
+- Context-aware responses
+- Multi-turn conversations
+
+---
+
+# 📄 AI Notes Analyzer
+- Upload PDFs/Notes
+- OCR-ready architecture
+- Semantic search
+- Educational RAG pipeline
+- AI-powered summarization
+
+---
+
+# 📝 AI Quiz Generator
+- AI-generated MCQs
+- Difficulty-based quizzes
+- Automatic evaluation
+- Score tracking
+- Smart assessments
+
+---
+
+# 📊 Learning Analytics
+- Quiz performance tracking
+- AI learning insights
+- Progress dashboards
+- Achievement system
+- Personalized recommendations
+
+---
+
+# 🧠 Personalized AI Study Planner
+- AI-generated study schedules
+- Adaptive learning roadmap
+- Weak-topic detection
+- Productivity optimization
+
+---
+
+# 🎤 Voice Learning Assistant
+- Speech-to-text learning
+- Voice-based AI tutor
+- Interactive learning assistant
+
+---
+
+# 👨‍🏫 Teacher Dashboard
+- Course management
+- Student monitoring
+- Classroom analytics
+- Learning insights
+
+---
+
+# 🛡️ Enterprise Admin System
+- User approval system
+- Role management
+- Delete/block users
+- Enterprise authentication
+- RBAC architecture
+
+---
+
+# 🧠 Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Frontend | Streamlit, Plotly |
+| Backend | Python, SQLite |
+| AI/GenAI | Ollama, Phi3 |
+| NLP | Sentence Transformers |
+| Vector DB | FAISS |
+| Authentication | bcrypt |
+| Voice AI | SpeechRecognition |
+
+---
+
+# 🏗️ System Architecture
+
+```text
+Student/Teacher/Admin
+          │
+          ▼
+Authentication System
+          │
+          ▼
+EduMind AI Platform
+          │
+ ┌────────┼────────┐
+ ▼        ▼        ▼
+AI Tutor  RAG      Analytics
+          │
+          ▼
+FAISS Vector Database
+          │
+          ▼
+Phi3 AI Model
+          │
+          ▼
+Personalized Learning
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+EduMind-AI/
+│
+├── app.py
+├── create_admin.py
+├── requirements.txt
+├── README.md
+│
+├── src/
+│   ├── auth.py
+│   ├── chatbot.py
+│   ├── database.py
+│   ├── embeddings.py
+│   ├── memory.py
+│   ├── pdf_loader.py
+│   ├── quiz_parser.py
+│   ├── teacher.py
+│   └── voice_assistant.py
+│
+├── uploads/
+│
+└── vectorstore/
+```
+
+---
+
+# ⚙️ Installation
+
+# 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/EduMind-AI.git
+```
+
+---
+
+# 2️⃣ Open Project
+
+```bash
+cd EduMind-AI
+```
+
+---
+
+# 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 4️⃣ Install Ollama
+
+Download:
+https://ollama.com
+
+---
+
+# 5️⃣ Pull Phi3 Model
+
+```bash
+ollama run phi3
+```
+
+---
+
+# 6️⃣ Create Admin User
+
+```bash
+python create_admin.py
+```
+
+---
+
+# 7️⃣ Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🔑 Default Admin Credentials
+
+```text
+Username: admin
+Password: admin123
+```
+
+---
+
+# 🚀 Core Functionalities
+
+✅ AI Tutor Chatbot  
+✅ Educational RAG System  
+✅ PDF Upload + Notes Analyzer  
+✅ AI Quiz Generator  
+✅ Personalized Study Planner  
+✅ Voice Learning Assistant  
+✅ Learning Analytics  
+✅ Teacher Dashboard  
+✅ Admin Dashboard  
+✅ Role-Based Authentication  
+
+---
+
+# 📈 Future Enhancements
+
+- OCR Integration
+- Real-time collaboration
+- AI Mock Interviews
+- Cloud deployment
+- PostgreSQL integration
+- Multi-language support
+- Mobile app support
+
+---
+
+# 👨‍💻 Author
+
+Anirodh Padhy
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a star ⭐ on GitHub.
